@@ -1,0 +1,165 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-weight: 100;
+	font-family: serif;	
+	margin-bottom: 40px;
+	margin-top: 80px !important;
+	font-size: 175%;
+}
+
+.section1 {
+	border: 1px solid;
+	position: relative;
+	padding: 35px 15px 15px 15px;
+	background-color: #b2b2b2;
+	margin-bottom: 20px;
+}
+
+.section2 {
+	border: 1px solid;
+	position: relative;
+	padding: 35px 15px 15px 15px;
+	background-color: #b2b2b2;
+	margin-bottom: 20px;
+}
+
+.section3 {
+	border: 1px solid;
+	position: relative;
+	padding: 35px 15px 15px 15px;
+	background-color: #b2b2b2;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		/*padding: 0 !important;
+		margin: 0 !important;*/
+		width: 100% !important;	
+	}
+
+	/*.col-lg-4 {
+		padding: 0 !important;
+	}*/
+}
+
+.left-title{
+	margin-top: 0;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	padding: 0 20px 0 20px;
+	background-color: #ffaeb9;
+}
+
+.middle-title{
+	margin-top: 0;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	padding: 0 20px 0 20px;
+	background-color: #DAA520;	
+}
+
+.right-title{
+	margin-top: 0;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	padding: 0 20px 0 20px;
+	background-color: #00FF00;
+}
+
+.left-title > h3 {
+	font-weight: bold;
+	margin: 0px;
+	text-align: center;
+	font-size: 125%;
+}
+
+.middle-title > h3 {
+	font-weight: bold;
+	margin: 0px;
+	text-align: center;
+	font-size: 125%;
+}
+
+.right-title > h3 {
+	font-weight: bold;
+	margin: 0px;
+	text-align: center;
+	font-size: 125%;
+}
+
+#nav-list {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#nav-list a {
+	color: #fff;
+
+}
+
+#nav-list a:hover {
+	background-color: #aaa;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #fff;
+}
+
+#header-nav {
+	background-color: #232B2B;
+	border-color: #C32148;
+}
+
+.navbar-brand {
+	color: #fff !important;
+}
+
+#top_link {
+	text-decoration: none;
+	color: #000;
+}
+
+#middle_link {
+	text-decoration: none;
+	color: #000;
+}
+
+#bottom_link {
+	text-decoration: none;
+	color: #000;
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+.nav li a {
+	display: none !important;
+}
+
+@media(min-width: 992px) {
+.nav li a {
+	display: none !important;
+}
+
